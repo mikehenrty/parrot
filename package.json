@@ -1,0 +1,10 @@
+{
+  "name": "parrot",
+  "version": "0.0.1",
+  "description": "Polly want a cracker",
+  "author": "Michael Henretty",
+  "main": "index.js",
+  "dependencies": {
+    "pocketsphinx": "5.0.5"
+  }
+}
