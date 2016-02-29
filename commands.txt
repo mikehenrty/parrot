@@ -1,0 +1,6 @@
+red
+yellow
+blue
+green
+orange
+lights
