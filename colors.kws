@@ -1,5 +1,5 @@
-lights red /1e-30/
-lights yellow /1e-30/
-lights blue /1e-30/
-lights green /1e-30/
-lights orange /1e-30/
+LIGHTS RED /1e-30/
+LIGHTS YELLOW /1e-30/
+LIGHTS BLUE /1e-30/
+LIGHTS GREEN /1e-30/
+LIGHTS ORANGE /1e-30/

@@ -5,6 +5,9 @@
   "author": "Michael Henretty",
   "main": "index.js",
   "dependencies": {
-    "pocketsphinx": "5.0.5"
+    "pocketsphinx": "5.0.5",
+    "mic": "2.0.1",
+    "concat-stream": "1.5.1",
+    "request": "2.69.0"
   }
 }
