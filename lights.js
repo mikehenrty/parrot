@@ -1,30 +1,12 @@
-var Microphone = require('./lib/microphone.js');
-var Decoder = require('./lib/ps-decoder.js');
+var Commands = require('./lib/commands.js');
 var Hue = require('./lib/hue.js');
 
-var words = [];
-function processWords(newWords) {
-  words = words.concat(newWords.split(' '));
-  console.log('processing words', words);
-  while (words.length > 1) {
-    while (words.length > 0 && words[0] !== 'LIGHTS') {
-      console.log('threw away', words.shift());
-    }
-    if (words.length > 1) {
-      console.log('let there be', words.shift());
-      if (words[0] !== 'LIGHTS') {
-        var color = words.shift();
-        console.log('COMMAND!', color);
-        Hue.setColor(color);
-      }
-    }
-  }
-}
-
-var decoder = new Decoder();
-var microphone = new Microphone();
-microphone.start(function(data) {
-  var utterance = decoder.decode(data);
-  utterance && processWords(utterance);
+var colors =  [
+  'RED', 'BLUE', 'YELLOW', 'GREEN', 'ORANGE'
+];
+var keyword = 'LIGHTS';
+var commands = new Commands(keyword, colors);
+commands.listen(function(command) {
+  console.log('got command', command);
+  Hue.setColor(command);
 });
-
