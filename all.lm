@@ -1,0 +1,89 @@
+Language model created by QuickLM on Wed Mar  2 04:05:13 EST 2016
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 16 sentences and 18 words
+
+\data\
+ngram 1=18
+ngram 2=32
+ngram 3=16
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.9823 BAKE -0.2218
+-1.9823 BLUE -0.2218
+-1.9823 CLEAN -0.2218
+-1.9823 COOK -0.2218
+-1.9823 FOXY -0.2218
+-1.9823 GREEN -0.2218
+-1.9823 JUMP -0.2218
+-1.9823 KITCHEN -0.2218
+-1.9823 LIGHTS -0.2218
+-1.9823 ORANGE -0.2218
+-1.9823 RED -0.2218
+-1.9823 RUN -0.2218
+-1.9823 SHAKE -0.2218
+-1.9823 SLEEP -0.2218
+-1.9823 STOP -0.2218
+-1.9823 YELLOW -0.2218
+
+\2-grams:
+-1.5051 <s> BAKE 0.0000
+-1.5051 <s> BLUE 0.0000
+-1.5051 <s> CLEAN 0.0000
+-1.5051 <s> COOK 0.0000
+-1.5051 <s> FOXY 0.0000
+-1.5051 <s> GREEN 0.0000
+-1.5051 <s> JUMP 0.0000
+-1.5051 <s> KITCHEN 0.0000
+-1.5051 <s> LIGHTS 0.0000
+-1.5051 <s> ORANGE 0.0000
+-1.5051 <s> RED 0.0000
+-1.5051 <s> RUN 0.0000
+-1.5051 <s> SHAKE 0.0000
+-1.5051 <s> SLEEP 0.0000
+-1.5051 <s> STOP 0.0000
+-1.5051 <s> YELLOW 0.0000
+-0.3010 BAKE </s> -0.3010
+-0.3010 BLUE </s> -0.3010
+-0.3010 CLEAN </s> -0.3010
+-0.3010 COOK </s> -0.3010
+-0.3010 FOXY </s> -0.3010
+-0.3010 GREEN </s> -0.3010
+-0.3010 JUMP </s> -0.3010
+-0.3010 KITCHEN </s> -0.3010
+-0.3010 LIGHTS </s> -0.3010
+-0.3010 ORANGE </s> -0.3010
+-0.3010 RED </s> -0.3010
+-0.3010 RUN </s> -0.3010
+-0.3010 SHAKE </s> -0.3010
+-0.3010 SLEEP </s> -0.3010
+-0.3010 STOP </s> -0.3010
+-0.3010 YELLOW </s> -0.3010
+
+\3-grams:
+-0.3010 <s> BAKE </s>
+-0.3010 <s> BLUE </s>
+-0.3010 <s> CLEAN </s>
+-0.3010 <s> COOK </s>
+-0.3010 <s> FOXY </s>
+-0.3010 <s> GREEN </s>
+-0.3010 <s> JUMP </s>
+-0.3010 <s> KITCHEN </s>
+-0.3010 <s> LIGHTS </s>
+-0.3010 <s> ORANGE </s>
+-0.3010 <s> RED </s>
+-0.3010 <s> RUN </s>
+-0.3010 <s> SHAKE </s>
+-0.3010 <s> SLEEP </s>
+-0.3010 <s> STOP </s>
+-0.3010 <s> YELLOW </s>
+
+\end\

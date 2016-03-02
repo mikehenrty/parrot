@@ -1,0 +1,16 @@
+red
+yellow
+blue
+green
+orange
+lights
+foxy
+run
+jump
+sleep
+stop
+kitchen
+cook
+clean
+shake
+bake
